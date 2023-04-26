@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - Entry point 
+* main -Entry point 
 * Description: It prints all single digit numbers followed by new line
 * Return: the function returns 0
 */
