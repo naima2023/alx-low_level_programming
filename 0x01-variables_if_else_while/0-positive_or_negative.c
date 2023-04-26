@@ -2,7 +2,15 @@
 #include <stdlib.h>
 #include<stdio.h>
 /* betty style doc for function main goes there */
-int   main(void)
+/**
+ * main - Entry point
+ *
+ * Description: 'the program's description'
+ * @parameter: describe the parameter
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
 	int n;
 
