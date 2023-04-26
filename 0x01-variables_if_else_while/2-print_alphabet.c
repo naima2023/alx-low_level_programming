@@ -1,3 +1,5 @@
+
+
 #include <stdio.h>
 
 /**
@@ -7,15 +9,12 @@
 */
 int main(void)
 {
-char n;
-for (n = 'a' ; n <= 'z'; n++) {
-putchar(n);
-}
+char a;
 
+for (a = 'a'; a <= 'z'; a++)
+{
+putchar(a);
+}
 putchar(10);
-return(0);
-
+return (0);
 }
-
-
-
