@@ -1,13 +1,14 @@
-#include <unistd.h>
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
-* _putchar - writes the character c to stdout
-* @c: the character to print
-*
-* Return: On success 1.
-* On error, -1 is returned, and errno is set appropriately.
+* main - This function checks whether a random number assigned to n
+* is positive or negative
+* Return: the function returns 0
 */
-int _putchar(char c)
+int main(void)
 {
-return (write(1, &c, 1));
+printf ("_putchar \n");
+}
+return(0);
 }
