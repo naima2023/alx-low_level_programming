@@ -1,32 +1,24 @@
 #include "main.h"
-/**	**
- * _strcmp - function that that compares two strings
- * @s1: first value to compare
- *@s2: second value to compare
+
+/**
+ * _strcmp - compares two strings
+ * @s1: first string to compare
+ * @s2: second string to compare
  *
- * Return: char comparate
+ * Return: less than 0 if s1 is less than s2, 0 if they're equal,
+ * more than 0 if s1 is greater than s2
  */
 int _strcmp(char *s1, char *s2)
 {
-	int i = 0, j = 0, a, m = 0;
-
-
-	while (s1[i] != 0)
-	{
-	i++;
-	}
-	while (s2[j] != 0)
-	{
-	j++;
-	}
-	for (a = 0; a <= i && a <= j; a++)
-	{
-	if (s1[a] != s2[a])
-	{
-	m = (s1[a] - '0') - (s2[a] - '0');
-	break;
-		}
-	}
-	return (m);
+        while (*s1 == *s2)
+        {
+                if (*s1 == '\0')
+                {
+                        return (0);
+                }
+                s1++;
+                s2++;
+        }
+        return (*s1 - *s2);
 }
 
