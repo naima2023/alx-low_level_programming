@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	if (argc == 3)
 	{
 		for (i = 1; i < argc ;i++)
-			j = argv[i] * argv[i-1];
+			j =atoi( argv[i] * argv[i-1]);
 		printf ("%d\n" , j);
 	}
 	else
