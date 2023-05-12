@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 /**
  * main- program multiplies two numbers
  * @argc: number of line command arguments

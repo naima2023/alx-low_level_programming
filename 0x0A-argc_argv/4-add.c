@@ -1,6 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
 
 /** 
  * main - add positives numbers
@@ -22,9 +24,9 @@ sum = 0;
 for (i = 1; i < argc; i++)
 {
 ptr = argv[i];
-length = strlen(ptr);
+size = strlen(ptr);
 
-for (j = 0; j < length; j++)
+for (j = 0; j < size; j++)
 {
 if (isdigit(*(ptr + j)) == 0)
 {
