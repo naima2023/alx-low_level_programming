@@ -3,16 +3,16 @@
 #include "stdlib.h"
 
 /**
- * -create_array - array of chars
+ * create_array - array of chars
  *  @size : size of array 
- *  @n: character
+ *  @c: character
  * Return : return a pointer to the array,or Null if it fails
  */
 
 char *create_array(unsigned int size, char c)
 {
 
-            char array[];
+            char *array = NULL;
 	    unsigned int i;
 	   
 	    if(size == 0) 
@@ -23,7 +23,7 @@ char *create_array(unsigned int size, char c)
 			   array = (char *)malloc(size * sizeof(char));
 			 if(array !=0)
 			 {	for (i = 0;i < size ;i++)
-					array[i] = n;
+					array[i] = c;
 
 			 }
 		   }
