@@ -2,7 +2,7 @@
 #include "stdlib.h"
 
 /**
- * print-name - print a name
+ * print_name - print a name
  * @name : name
  * @f : function pointer
  */
